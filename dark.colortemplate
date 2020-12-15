@@ -51,13 +51,13 @@ Color: brightred     #fb4834  ~
 Color: brightorange  #f8bf2f  ~
 Color: brightgreen   #b8bb28  ~
 Color: brightblue    #94c8df  ~
-Color: brightmagenta #d898a4  ~
+Color: brightmagenta #df94a8  ~
 
 Color: darkred       #a86f5f  ~
 Color: darkgreen     #408f48  ~
 Color: darkblue      #086888  ~
 
-Color: white         #dfcfbf  ~
+Color: white         #ebdbb2  ~
 Color: brightgray    #a89888  ~
 Color: gray          #8f8880  ~
 Color: darkgray      #444444  ~
@@ -85,11 +85,12 @@ Number               brightmagenta    none              bold italic
 Character            brightgreen      none              bold italic
 String               brightgreen      none              italic 
 Keyword              brightblue       none              bold
-Conditional          brightblue       none              bold italic
+Conditional          brightblue       none              italic
 Function             brightorange     none
-StorageClass         blue             none              bold italic
+Operator             brightorange     none              italic
+StorageClass         blue             none              bold
 Structure            orange           none
-Operator             orange           none              italic
+Type                 orange           none              italic 
 Delimiter            red              none              italic
 
 ColorColumn          none             brightblack
@@ -153,7 +154,6 @@ SpecialComment       orange           none              italic
 SpecialChar          brightorange     none              italic 
 Statement            magenta          none
 Todo                 brightgray       none              bold
-Type                 orange           none              italic 
 Underlined           magenta          none              italic
 
 ToolbarLine          none              darkblue
