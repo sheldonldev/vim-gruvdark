@@ -27,6 +27,7 @@ MatchParen        -> Visual
 
 QuickFixLine      -> Search
 Repeat            -> Statement
+Underlined        -> Statement 
 
 PopupSelected     -> PmenuSel
 StatusLineTerm    -> StatusLine
@@ -84,13 +85,13 @@ Float                brightmagenta    none              bold italic
 Number               brightmagenta    none              bold italic
 Character            brightgreen      none              bold italic
 String               brightgreen      none              italic 
-Keyword              brightblue       none              bold
-Conditional          brightblue       none              italic
 Function             brightorange     none
-Operator             brightorange     none              italic
-StorageClass         blue             none              bold
-Structure            orange           none
-Type                 orange           none              italic 
+Keyword              magenta          none              bold
+Conditional          brightblue       none              italic
+Operator             brightblue       none
+StorageClass         blue             none              italic
+Structure            orange           none              italic
+Type                 orange           none
 Delimiter            red              none              italic
 
 ColorColumn          none             brightblack
@@ -110,7 +111,7 @@ EndOfBuffer          darkgray         none
 ErrorMsg             white            brightred
 FoldColumn           gray             none
 Folded               brightgray       brightblack       italic
-Title                brightorange      none              bold italic
+Title                brightorange      none             bold italic
 
 IncSearch            orange           none              reverse
 ModeMsg              orange           none              bold
@@ -149,12 +150,11 @@ Error                brightred        brightblack       bold reverse
 Identifier           blue             none
 Ignore               fg               none
 PreProc              green            none
-Special              red              none              italic
+Special              red              none
 SpecialComment       orange           none              italic 
 SpecialChar          brightorange     none              italic 
-Statement            magenta          none
+Statement            magenta          none              italic
 Todo                 brightgray       none              bold
-Underlined           magenta          none              italic
 
 ToolbarLine          none              darkblue
 ToolbarButton        brightgray        darkgray          bold
