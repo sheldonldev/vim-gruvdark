@@ -41,7 +41,7 @@ Variant: gui 256
 
 ; Color palette {{{
 ; Color name         GUI      256
-Color: red           #d85f0f  ~
+Color: red           #e9593d  ~
 Color: orange        #ff8a28  ~
 Color: green         #8fbf78  ~
 Color: blue          #8098af  ~
@@ -53,11 +53,11 @@ Color: brightgreen   #b8bb28  ~
 Color: brightblue    #94c8df  ~
 Color: brightmagenta #df94a8  ~
 
-Color: darkred       #a86f5f  ~
+Color: darkred       #af5f0f  ~
 Color: darkgreen     #408f48  ~
 Color: darkblue      #086888  ~
 
-Color: white         #ebdbb2  ~
+Color: white         #e4d4a8  ~
 Color: brightgray    #a89888  ~
 Color: gray          #8f8880  ~
 Color: darkgray      #444444  ~
