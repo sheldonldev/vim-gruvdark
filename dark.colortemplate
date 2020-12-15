@@ -1,0 +1,162 @@
+; vim: ft=colortemplate fdm=marker cc=22,39,57 et ts=2 sw=2
+
+; Information {{{
+Full name:     gruvdark 
+Short name:    gruvdark
+Author:        Sheldon <info@sheldonl.dev>
+Neovim:        yes
+
+Website:       https://sheldonl.dev
+Description:   Template for dark colorscheme 
+; }}}
+
+; Common linked groups {{{
+Typedef           -> Type
+Define            -> PreProc
+Include           -> PreProc
+Exception         -> Special
+Label             -> Statement
+Debug             -> Special
+Macro             -> PreProc
+PreCondit         -> PreProc
+Tag               -> Statement
+
+VisualNOS         -> Visual
+Search            -> Visual
+MatchParen        -> Visual
+
+QuickFixLine      -> Search
+Repeat            -> Statement
+
+PopupSelected     -> PmenuSel
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+
+lCursor           -> Cursor
+CursorIM          -> Visual
+; }}}
+
+Background: dark
+Variant: gui 256 
+
+; Color palette {{{
+; Color name         GUI      256
+Color: red           #d85f0f  ~
+Color: orange        #ff8a28  ~
+Color: green         #8fbf78  ~
+Color: blue          #8098af  ~
+Color: magenta       #af7fb8  ~
+
+Color: brightred     #fb4834  ~
+Color: brightorange  #f8bf2f  ~
+Color: brightgreen   #b8bb28  ~
+Color: brightblue    #94c8df  ~
+Color: brightmagenta #d898a4  ~
+
+Color: darkred       #a86f5f  ~
+Color: darkgreen     #408f48  ~
+Color: darkblue      #086888  ~
+
+Color: white         #dfcfbf  ~
+Color: brightgray    #a89888  ~
+Color: gray          #8f8880  ~
+Color: darkgray      #444444  ~
+Color: brightblack   #2f3030  ~
+Color: black         #1f2020  ~
+; }}}
+
+; Terminal colors {{{
+Term colors: black red green orange blue magenta brightblack
+Term colors: brightred brightgreen brightorange brightblue brightmagenta white
+Term colors: darkgreen darkblue darkred
+; }}}
+
+#if get(g:, '@optionprefix_transp_bg', 0)
+Normal          white           none
+#else
+Normal          white           black
+#endif
+
+; Default highbright groups {{{
+; Group              Foreground       Background        Attributes
+Boolean              green            none              bold italic 
+Float                brightmagenta    none              bold italic
+Number               brightmagenta    none              bold italic
+Character            brightgreen      none              bold italic
+String               brightgreen      none              italic 
+Keyword              brightblue       none              bold
+Conditional          brightblue       none              bold italic
+Function             brightorange     none
+StorageClass         blue             none              bold italic
+Structure            orange           none
+Operator             orange           none              italic
+Delimiter            red              none              italic
+
+ColorColumn          none             brightblack
+Conceal              gray             none
+Cursor               black            white
+CursorColumn         none             brightblack
+CursorLine           none             brightblack
+CursorLineNr         none             brightblack
+
+DiffAdd              darkgreen        none              reverse
+DiffChange           darkblue         none              reverse
+DiffDelete           darkred          none              reverse
+DiffText             brightorange     none              reverse
+
+Directory            blue             none
+EndOfBuffer          darkgray         none
+ErrorMsg             white            brightred
+FoldColumn           gray             none
+Folded               brightgray       brightblack       italic
+Title                brightorange      none              bold italic
+
+IncSearch            orange           none              reverse
+ModeMsg              orange           none              bold
+Visual               none             darkgray          reverse
+
+LineNr               gray             none
+MoreMsg              brightorange     none              bold
+NonText              darkgray         none
+Question             orange           none              bold
+SignColumn           orange           brightblack
+SpecialKey           darkblue         none
+
+SpellBad             darkred          none              s=darkred      italic t=underline g=undercurl
+SpellCap             darkblue         none              s=darkblue     italic t=underline g=undercurl
+SpellLocal           darkgreen        none              s=darkgreen    italic t=underline g=undercurl
+SpellRare            red              none              s=red          italic t=underline g=undercurl
+
+Pmenu                brightgray       darkgray
+PmenuSbar            gray             darkgray
+PmenuSel             brightblack      brightgreen       bold 
+PmenuThumb           white            gray
+StatusLine           brightgreen      black
+StatusLineNC         brightblack      brightgreen
+TabLine              gray             darkgray
+TabLineFill          brightgreen      darkgray
+TabLineSel           brightgreen      brightblack       bold 
+
+VertSplit            darkgray         black
+WarningMsg           brightred        none              bold
+WildMenu             green            darkgray          bold
+
+; Other conventional group names (see `:help group-name`)
+Comment              gray             none              italic
+Constant             brightmagenta    none              italic
+Error                brightred        brightblack       bold reverse
+Identifier           blue             none
+Ignore               fg               none
+PreProc              green            none
+Special              red              none              italic
+SpecialComment       orange           none              italic 
+SpecialChar          brightorange     none              italic 
+Statement            magenta          none
+Todo                 brightgray       none              bold
+Type                 orange           none              italic 
+Underlined           magenta          none              italic
+
+ToolbarLine          none              darkblue
+ToolbarButton        brightgray        darkgray          bold
+; }}}
+
