@@ -145,7 +145,7 @@ WildMenu             green            darkgray          bold
 
 ; Other conventional group names (see `:help group-name`)
 Comment              gray             none              italic
-Constant             brightmagenta    none              italic
+Constant             brightmagenta    none              bold
 Error                brightred        brightblack       bold reverse
 Identifier           blue             none
 Ignore               fg               none
