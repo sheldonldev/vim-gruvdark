@@ -56,7 +56,7 @@ Color: brightmagenta #df94a8  217
 
 Color: darkred       #af5f0f  130
 Color: darkgreen     #408f48  28
-Color: darkblue      #086888  25
+Color: darkblue      #0f6f9f  25
 
 Color: white         #e4d4a8  187
 Color: brightgray    #a89888  246
@@ -160,3 +160,15 @@ ToolbarLine          none              darkblue
 ToolbarButton        brightgray        darkgray          bold
 ; }}}
 
+; Netrw {{{
+netrwDir             -> Directory 
+netrwClassify        -> Directory
+netrwLink            -> Comment
+netrwSymLink         -> Statement
+netrwExe             -> SpecialComment
+netrwComment         -> Comment
+netrwList            -> Directory 
+netrwHelpCmd         -> PreProc
+netrwCmdSep          -> SpecialKey
+netrwVersion         -> String
+; }}}
