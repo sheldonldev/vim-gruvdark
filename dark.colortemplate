@@ -42,28 +42,28 @@ Variant: gui 256
 
 ; Color palette {{{
 ; Color name         GUI      256
-Color: red           #e9593d  124 
-Color: orange        #ff8a28  ~
-Color: green         #8fbf78  ~
-Color: blue          #8098af  ~
-Color: magenta       #af7fb8  ~
+Color: red           #e9593d  202
+Color: orange        #ff8a28  208
+Color: green         #8fbf78  107
+Color: blue          #8098af  110
+Color: magenta       #af7fb8  133
 
-Color: brightred     #fb4834  ~
-Color: brightorange  #f8bf2f  ~
-Color: brightgreen   #b8bb28  ~
-Color: brightblue    #94c8df  ~
-Color: brightmagenta #df94a8  ~
+Color: brightred     #fb4834  196
+Color: brightorange  #f8bf2f  214
+Color: brightgreen   #b8bb28  142
+Color: brightblue    #94c8df  159
+Color: brightmagenta #df94a8  217
 
-Color: darkred       #af5f0f  ~
-Color: darkgreen     #408f48  ~
-Color: darkblue      #086888  ~
+Color: darkred       #af5f0f  130
+Color: darkgreen     #408f48  28
+Color: darkblue      #086888  25
 
-Color: white         #e4d4a8  ~
-Color: brightgray    #a89888  ~
-Color: gray          #8f8880  ~
-Color: darkgray      #444444  ~
-Color: brightblack   #2f3030  ~
-Color: black         #1f2020  ~
+Color: white         #e4d4a8  187
+Color: brightgray    #a89888  246
+Color: gray          #8f8880  243
+Color: darkgray      #444444  238
+Color: brightblack   #2f3030  236
+Color: black         #1f2020  234
 ; }}}
 
 ; Terminal colors {{{
@@ -145,7 +145,7 @@ WildMenu             green            darkgray          bold
 
 ; Other conventional group names (see `:help group-name`)
 Comment              gray             none              italic
-Constant             brightmagenta    none              bold
+Constant             brightmagenta    none
 Error                brightred        brightblack       bold reverse
 Identifier           blue             none
 Ignore               fg               none
