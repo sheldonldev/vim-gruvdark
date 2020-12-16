@@ -46,7 +46,7 @@ Color: red           #e9593d  202
 Color: orange        #ff8a28  208
 Color: green         #8fbf78  107
 Color: blue          #8098af  109
-Color: magenta       #af7fb8  133
+Color: magenta       #af7fb8  175
 
 Color: brightred     #fb4834  196
 Color: brightorange  #f8bf2f  214
@@ -96,7 +96,7 @@ Delimiter            red              none              italic
 
 ColorColumn          none             brightblack
 Conceal              gray             none
-Cursor               black            white
+Cursor               white            black             reverse
 CursorColumn         none             brightblack
 CursorLine           none             brightblack
 CursorLineNr         none             brightblack
