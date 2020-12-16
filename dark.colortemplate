@@ -51,7 +51,7 @@ Color: magenta       #af7fb8  175
 Color: brightred     #fb4834  196
 Color: brightorange  #f8bf2f  214
 Color: brightgreen   #b8bb28  142
-Color: brightblue    #98c8df  159
+Color: brightblue    #98c8df  116
 Color: brightmagenta #df94a8  217
 
 Color: darkred       #af5f0f  130
@@ -146,7 +146,7 @@ WildMenu             green            darkgray          bold
 ; Other conventional group names (see `:help group-name`)
 Comment              gray             none              italic
 Constant             brightmagenta    none
-Error                darkred          white             bold reverse
+Error                red              white             bold reverse
 Identifier           blue             none
 Ignore               fg               none
 PreProc              green            none
@@ -171,15 +171,18 @@ netrwList            -> Directory
 netrwHelpCmd         -> PreProc
 netrwCmdSep          -> SpecialKey
 netrwVersion         -> String
+netrwTime            -> Conceal
+netrwSizeDate        -> Constant
+netrwTreeBar         -> SpecialKey
 netrwCompress        brightgreen      none 
-netrwData	           blue             none
-netrwHdr	           brightblue       none
-netrwLex	           brightblue       none              italic
-netrwYacc	           brightblue       none              italic
+netrwData	           brightblue       none
+netrwHdr	           green            none
+netrwLex	           green            none              italic
+netrwYacc	           green            none              italic
 netrwLib	           brightorange     none
 netrwObj	           orange           none
 netrwTilde	         orange           none
-netrwTmp	           red              none
-netrwTags	           red              none
+netrwTmp	           darkred          none
+netrwTags	           darkred          none
 netrwDoc	           blue             none
 ; }}}
