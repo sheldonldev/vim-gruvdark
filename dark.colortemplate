@@ -176,9 +176,9 @@ netrwData	           blue             none
 netrwHdr	           brightblue       none
 netrwLex	           brightblue       none              italic
 netrwYacc	           brightblue       none              italic
-netrwLib	           orange           none
-netrwObj	           red              none
-netrwTilde	         red              none
+netrwLib	           brightorange     none
+netrwObj	           orange           none
+netrwTilde	         orange           none
 netrwTmp	           red              none
 netrwTags	           red              none
 netrwDoc	           blue             none
