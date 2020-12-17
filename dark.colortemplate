@@ -198,7 +198,7 @@ mkdCodeStart         darkgreen        none              italic
 mkdCodeEnd           -> mkdCodeStart
 mkdStrike            darkblue         none              italic
 mkdHeading           -> mkdStrike
-mkdURL               gray             none              italic
-mkdDelimiter         blue             none              italic
+mkdURL               gray             none
+mkdDelimiter         blue             none
 mkdLineBreak         none             none
 ; }}}
