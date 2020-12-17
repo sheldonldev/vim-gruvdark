@@ -61,7 +61,7 @@ Character            brightgreen      none              bold italic
 String               brightgreen      none              italic 
 Function             brightorange     none
 Keyword              magenta          none              italic
-Conditional          brightblue       none              italic
+Conditional          brightblue       none              bold
 Operator             brightblue       none
 StorageClass         blue             none              italic
 Structure            orange           none              italic
