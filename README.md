@@ -10,9 +10,9 @@
 ## Features
 
 - Refined for higher contrast, feels a little diffrent from the origin gruvbox, but still very harmonious;
-- Well tuned integrated color groups, for both `gui` and `256`;
+- Well tuned integrated color groups, for both `gui` and `256`, and for both `vim` and `nvim`. Of course, `gui` and `nvim` are more featured then `256` and `vim`;
 - Well tuned to work with the integrated tools such as explorer `Netrw`, `statusline` and `tabline`;
-- Very lean, no color group for any specific language or plugins, but was well tuned to work with [vim-polyglot](https://github.com/sheerun/vim-polyglot);
+- Very lean, no color group for more specific language or plugins, but well tuned to work with [vim-polyglot](https://github.com/sheerun/vim-polyglot) and [vim-buftabline](https://github.com/ap/vim-buftabline);
 
 ## Installation
 
@@ -25,3 +25,36 @@ set termguicolors
 set background=dark
 colorscheme gruvdark
 ```
+
+## Hacking
+
+- You can check all highlight by `:highlight` command;
+- You can hack the `*.colortemplate`, and generate new colorscheme with [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate);
+
+## Gallery
+
+- Markdown:
+
+- Html:
+
+- CSS:
+
+- JS:
+
+- Json:
+
+- Vue:
+
+- Jsx:
+
+- C/C++:
+
+- Java:
+
+## My Very Lean vim/nvim Configuration
+
+- [sheldonldev/nvim_config](https://github.com/sheldonldev/nvim_config)
+
+## TODO
+
+- Gallery;
