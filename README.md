@@ -10,7 +10,7 @@
 ## Features
 
 - Refined for higher contrast, feels a little diffrent from the origin gruvbox, but still very harmonious;
-- Well tuned integrated color groups, for both `gui` and `256`, and for both `vim` and `nvim`. Of course, `gui` and `nvim` are more featured then `256` and `vim`;
+- Well tuned integrated color groups, for both `gui` and `256`, and for both `vim` and `nvim`. Of course, `gui` and `nvim` are more featured than `256` and `vim`;
 - Well tuned to work with the integrated tools such as explorer `Netrw`, `statusline` and `tabline`;
 - Very lean, no color group for more specific language or plugins, but well tuned to work with [vim-polyglot](https://github.com/sheerun/vim-polyglot) and [vim-buftabline](https://github.com/ap/vim-buftabline);
 
