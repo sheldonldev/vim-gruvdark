@@ -148,7 +148,7 @@ Tag               -> Statement
 
 VisualNOS         -> Visual
 Search            -> Visual
-MatchParen        -> Folded
+MatchParen        -> PmenuSbar
 
 QuickFixLine      -> Search
 Repeat            -> Statement
