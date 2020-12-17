@@ -10,53 +10,27 @@ Website:       https://sheldonl.dev
 Description:   Template for dark colorscheme 
 ; }}}
 
-; Common linked groups {{{
-Typedef           -> Type
-Define            -> PreProc
-Include           -> PreProc
-Exception         -> Special
-Label             -> Statement
-Debug             -> Special
-Macro             -> PreProc
-PreCondit         -> PreProc
-Tag               -> Statement
-
-VisualNOS         -> Visual
-Search            -> Visual
-MatchParen        -> Visual
-
-QuickFixLine      -> Search
-Repeat            -> Statement
-Underlined        -> Statement 
-
-PopupSelected     -> PmenuSel
-StatusLineTerm    -> StatusLine
-StatusLineTermNC  -> StatusLineNC
-
-lCursor           -> Cursor
-CursorIM          -> Visual
-; }}}
 
 Background: dark
 Variant: gui 256 
 
 ; Color palette {{{
 ; Color name         GUI      256
-Color: red           #e9593d  202
+Color: red           #e9593d  203
 Color: orange        #ff8a28  208
 Color: green         #8fbf78  107
 Color: blue          #8098af  109
 Color: magenta       #af7fb8  175
 
 Color: brightred     #fb4834  196
-Color: brightorange  #f8bf2f  214
+Color: brightorange  #f8bf2f  221
 Color: brightgreen   #b8bb28  142
 Color: brightblue    #98c8df  116
 Color: brightmagenta #df94a8  217
 
-Color: darkred       #af5f0f  130
-Color: darkgreen     #408f48  28
-Color: darkblue      #0f6f9f  25
+Color: darkred       #9f682f  130
+Color: darkgreen     #448f18  28
+Color: darkblue      #2f689f  31
 
 Color: white         #e4d4a8  187
 Color: brightgray    #a89888  247
@@ -138,7 +112,6 @@ StatusLineNC         brightblack      brightgreen
 TabLine              gray             darkgray
 TabLineFill          brightgreen      darkgray
 TabLineSel           brightgreen      brightblack       bold 
-
 VertSplit            darkgray         black
 WarningMsg           brightred        none              bold
 WildMenu             green            darkgray          bold
@@ -157,7 +130,7 @@ Statement            magenta          none              italic
 Todo                 brightgray       none              bold
 
 ToolbarLine          none              darkblue
-ToolbarButton        brightgray        darkgray          bold
+ToolbarButton        brightgray        darkgray         bold
 ; }}}
 
 ; Netrw {{{
@@ -176,7 +149,7 @@ netrwSizeDate        -> Constant
 netrwTreeBar         -> SpecialKey
 netrwCompress        brightgreen      none 
 netrwData	           brightblue       none
-netrwHdr	           green            none
+netrwHdr	           -> PreProc
 netrwLex	           green            none              italic
 netrwYacc	           green            none              italic
 netrwLib	           brightorange     none
@@ -185,4 +158,47 @@ netrwTilde	         orange           none
 netrwTmp	           darkred          none
 netrwTags	           darkred          none
 netrwDoc	           blue             none
+; }}}
+
+; Common linked groups {{{
+Typedef           -> Type
+Define            -> PreProc
+Include           -> PreProc
+Exception         -> Special
+Label             -> Statement
+Debug             -> Special
+Macro             -> PreProc
+PreCondit         -> PreProc
+Tag               -> Statement
+
+VisualNOS         -> Visual
+Search            -> Visual
+MatchParen        -> Visual
+
+QuickFixLine      -> Search
+Repeat            -> Statement
+Underlined        -> Statement 
+
+PopupSelected     -> PmenuSel
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+
+lCursor           -> Cursor
+CursorIM          -> Visual
+; }}}
+
+; Modified BufTabLine {{{
+BufTabLineModifiedHidden    gray          darkgray      italic 
+BufTabLineModifiedActive    brightblack   brightgreen   bold italic
+BufTabLineModifiedCurrent   brightgreen   darkgray      bold italic
+; }}}
+
+; Markdown {{ {
+mkdCodeStart         darkgreen        none              italic
+mkdCodeEnd           -> mkdCodeStart
+mkdStrike            darkblue         none              italic
+mkdHeading           -> mkdStrike
+mkdURL               gray             none              italic
+mkdDelimiter         blue             none              italic
+mkdLineBreak         none             none
 ; }}}
