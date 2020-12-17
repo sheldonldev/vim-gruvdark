@@ -60,7 +60,7 @@ Number               brightmagenta    none              bold italic
 Character            brightgreen      none              bold italic
 String               brightgreen      none              italic 
 Function             brightorange     none
-Keyword              magenta          none              bold
+Keyword              magenta          none              italic
 Conditional          brightblue       none              italic
 Operator             brightblue       none
 StorageClass         blue             none              italic
@@ -126,7 +126,7 @@ PreProc              green            none
 Special              red              none
 SpecialComment       orange           none              italic 
 SpecialChar          brightorange     none              italic 
-Statement            magenta          none              italic
+Statement            magenta          none
 Todo                 brightgray       none              bold
 
 ToolbarLine          none              darkblue
