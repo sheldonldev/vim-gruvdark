@@ -56,4 +56,4 @@ colorscheme gruvdark
 - Optimization for integrated terminal;
 - May slightly optimized in a long term.
 
-> Feel free to leave comment in the issue channel if you have any suggestion.
+> Feel free to leave comment in the issues channel if you have any suggestion.
