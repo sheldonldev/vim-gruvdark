@@ -19,7 +19,7 @@
 - Use any plugin installation method for vim/nvim; if you do not use `nvim` or any plugin manager, just copy the vim file to your run time color path in Linux or macOS like following:
 
 ```bash
-curl -fLo "~/.vim/colors/gruvdark.vim" --create-dirs https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim
+cd ~ && curl -fLo .vim/colors/gruvdark.vim --create-dirs https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim
 ```
 
 - Add the following code to your vim runtime like `.vimrc`:
