@@ -16,7 +16,12 @@
 
 ## Installation
 
-- Use any plugin installation methods for vim/nvim;
+- Use any plugin installation method for vim/nvim; if you do not use `nvim` or any plugin manager, just copy the vim file to your run time color path in Linux or macOS like following:
+
+```bash
+curl -fLo "~/.vim/colors/gruvdark.vim" --create-dirs https://github.com/sheldonldev/vim-gruvdark/colors/gruvdark.vim
+```
+
 - Add the following code to your vim runtime like `.vimrc`:
 
 ```bash
@@ -49,3 +54,6 @@ colorscheme gruvdark
 
 - Gallery for Html, CSS, JS, Json, Vue, Jsx, C/C++, Java;
 - Optimization for integrated terminal;
+- May slightly optimized in a long term.
+
+> Feel free to leave comment in the issue channel if you have any suggestion.
