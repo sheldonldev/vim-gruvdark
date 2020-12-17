@@ -16,20 +16,24 @@
 
 ## Installation
 
-- Use any plugin installation method for vim/nvim; if you do not use `nvim` or any plugin manager, just copy the vim file to your run time color path in Linux or macOS like following:
+- Use any plugin installation method for vim/nvim, or simply copy the [gruvdark.vim](https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim) to runtime path:
 
-```bash
-cd ~ && curl -fLo .vim/colors/gruvdark.vim --create-dirs https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim
-```
+  ```bash
+  # vim
+  cd ~ && curl -fLo .vim/colors/gruvdark.vim --create-dirs https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim
+
+  # nvim
+  cd ~ && curl -fLo .config/nvim/colors/gruvdark.vim --create-dirs https://raw.githubusercontent.com/sheldonldev/vim-gruvdark/main/colors/gruvdark.vim
+  ```
 
 - Add the following code to your vim runtime like `.vimrc`:
 
-```bash
-set t_Co=256
-set termguicolors
-set background=dark
-colorscheme gruvdark
-```
+  ```bash
+  set t_Co=256
+  set termguicolors
+  set background=dark
+  colorscheme gruvdark
+  ```
 
 ## Hacking
 
@@ -56,4 +60,4 @@ colorscheme gruvdark
 - Optimization for integrated terminal;
 - May slightly optimized in a long term.
 
-> Feel free to leave comment in the issues channel if you have any suggestion.
+  > Feel free to leave comment in the issues channel if you have any suggestion.
