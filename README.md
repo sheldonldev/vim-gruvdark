@@ -34,22 +34,12 @@ colorscheme gruvdark
 ## Gallery
 
 - Markdown:
+  [!mardown in vim](https://cdn.sheldonl.dev/vim-gruvdark/markdown-vim.webp)
+  [!mardown in vim](https://cdn.sheldonl.dev/vim-gruvdark/markdown-nvim.webp)
 
-- Html:
-
-- CSS:
-
-- JS:
-
-- Json:
-
-- Vue:
-
-- Jsx:
-
-- C/C++:
-
-- Java:
+- Vimscript
+  [!mardown in vim](https://cdn.sheldonl.dev/vim-gruvdark/vimscript-vim.webp)
+  [!mardown in vim](https://cdn.sheldonl.dev/vim-gruvdark/vimscript-nvim.webp)
 
 ## My Very Lean vim/nvim Configuration
 
@@ -57,4 +47,5 @@ colorscheme gruvdark
 
 ## TODO
 
-- Gallery;
+- Gallery for Html, CSS, JS, Json, Vue, Jsx, C/C++, Java;
+- Optimization for integrated terminal;
