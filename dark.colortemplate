@@ -17,28 +17,27 @@ Variant: gui 256
 ; Color palette {{{
 ; Color name         GUI      256
 Color: red           #e9593d  202
-Color: orange        #ff8a28  208
-Color: green         #8fbf78  107
-Color: blue          #8098af  109
+Color: orange        #fe8019  208
+Color: green         #8ec07c  107
+Color: blue          #7f98bf  109
 Color: magenta       #af7fb8  175
 
-Color: brightred     #fb4834  196
-Color: brightorange  #f8bf2f  221
-Color: brightgreen   #b8bb28  142
+Color: brightred     #fb4934  167
+Color: brightorange  #fabd2f  220
+Color: brightgreen   #b8bb26  143
 Color: brightblue    #98c8df  116
 Color: brightmagenta #df94a8  217
 
-Color: darkred       #9f682f  130
-Color: darkgreen     #448f18  28
-Color: darkblue      #2f689f  31
+Color: darkred       #9d0006  88
+Color: darkgreen     #79740e  100
+Color: darkblue      #076678  25
 
-Color: white         #e4d4a8  187
-Color: brightgray    #a89888  247
-Color: gray          #8f8880  245
-Color: commentgray   #6d6d6d  243
+Color: white         #d5c4a1  229
+Color: brightgray    #a89884  246
+Color: gray          #7c6f64  243
 Color: darkgray      #444444  238
-Color: brightblack   #2f3030  236
-Color: black         #1f2020  234
+Color: brightblack   #32302f  236
+Color: black         #1d2021  234
 ; }}}
 
 ; Terminal colors {{{
@@ -88,7 +87,7 @@ FoldColumn           gray             none
 Folded               brightgray       brightblack       italic
 Title                brightorange      none             bold italic
 
-MatchParen        commentgray none  reverse
+MatchParen           gray             none              reverse
 IncSearch            orange           none              reverse
 ModeMsg              orange           none              bold
 Visual               none             darkgray          reverse
@@ -119,7 +118,7 @@ WarningMsg           brightred        none              bold
 WildMenu             green            darkgray          bold
 
 ; Other conventional group names (see `:help group-name`)
-Comment              commentgray      none              italic
+Comment              gray             none              italic
 Constant             brightmagenta    none
 Error                red              white             bold reverse
 Identifier           blue             none
@@ -190,12 +189,15 @@ netrwDoc	           blue             none
 ; }}}
 
 ; Modified BufTabLine {{{
+BufTabLineCurrent           -> PmenuSel
+BufTabLineActivate          -> TabLineSel
+BufTabLineHidden            -> TabLine
+BufTabLineModifiedCurrent   brightblack   brightgreen   bold italic
+BufTabLineModifiedActive    brightgreen   brightblack   bold italic
 BufTabLineModifiedHidden    gray          darkgray      italic 
-BufTabLineModifiedActive    brightblack   brightgreen   bold italic
-BufTabLineModifiedCurrent   brightgreen   darkgray      bold italic
 ; }}}
 
-; Markdown {{ {
+; Markdown {{{
 mkdCodeStart         darkgreen        none              italic
 mkdCodeEnd           -> mkdCodeStart
 mkdStrike            darkblue         none              italic
