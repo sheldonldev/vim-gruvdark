@@ -32,12 +32,13 @@ Color: darkred       #9d0006  88
 Color: darkgreen     #79740e  100
 Color: darkblue      #076678  25
 
-Color: white         #d5c4a1  229
+Color: white         #d5c4a1  187
 Color: brightgray    #a89884  246
 Color: gray          #7c6f64  243
 Color: darkgray      #444444  238
 Color: brightblack   #32302f  236
-Color: black         #1d2021  234
+Color: black         #2d3031  235
+Color: darkblack     #1d2021  234
 ; }}}
 
 ; Terminal colors {{{
@@ -49,7 +50,7 @@ Term colors: darkgreen darkblue darkred
 #if get(g:, '@optionprefix_transp_bg', 0)
 Normal          white           none
 #else
-Normal          white           black
+Normal          white           darkblack
 #endif
 
 ; Default highbright groups {{{
@@ -68,12 +69,12 @@ Structure            orange           none              italic
 Type                 orange           none
 Delimiter            red              none              italic
 
-ColorColumn          none             brightblack
+ColorColumn          none             black
 Conceal              gray             none
-Cursor               white            black             reverse
-CursorColumn         none             brightblack
-CursorLine           none             brightblack
-CursorLineNr         none             brightblack
+Cursor               white            darkblack             reverse
+CursorColumn         none             black
+CursorLine           none             black
+CursorLineNr         none             black
 
 DiffAdd              darkgreen        none              reverse
 DiffChange           darkblue         none              reverse
@@ -84,8 +85,8 @@ Directory            blue             none
 EndOfBuffer          darkgray         none
 ErrorMsg             white            brightred
 FoldColumn           gray             none
-Folded               brightgray       brightblack       italic
-Title                brightorange      none             bold italic
+Folded               brightgray       brightblack        italic
+Title                brightorange     none             bold italic
 
 MatchParen           gray             none              reverse
 IncSearch            orange           none              reverse
@@ -96,7 +97,7 @@ LineNr               gray             none
 MoreMsg              brightorange     none              bold
 NonText              darkgray         none
 Question             orange           none              bold
-SignColumn           orange           brightblack
+SignColumn           orange           darkblack
 SpecialKey           darkblue         none
 
 SpellBad             darkred          none              s=darkred      italic t=underline g=undercurl
@@ -108,12 +109,12 @@ Pmenu                brightgray       darkgray
 PmenuSel             brightblack      brightgreen       bold 
 PmenuSbar            gray             darkgray
 PmenuThumb           white            gray
-StatusLine           brightgreen      black
-StatusLineNC         brightblack      brightgreen
-TabLine              -> PmenuSbar
-TabLineFill          none             darkgray
-TabLineSel           brightgreen      brightblack       bold 
-VertSplit            darkgray         black
+StatusLine           brightgreen      black             bold
+StatusLineNC         black            brightgreen       bold
+TabLine              gray             black
+TabLineFill          none             darkblack
+TabLineSel           brightgreen      black             bold 
+VertSplit            darkgray         darkblack
 WarningMsg           brightred        none              bold
 WildMenu             green            darkgray          bold
 
@@ -189,12 +190,13 @@ netrwDoc	           blue             none
 ; }}}
 
 ; Modified BufTabLine {{{
-BufTabLineCurrent           -> PmenuSel
-BufTabLineActivate          -> TabLineSel
-BufTabLineHidden            -> TabLine
-BufTabLineModifiedCurrent   brightblack   brightgreen   bold italic
-BufTabLineModifiedActive    brightgreen   brightblack   bold italic
-BufTabLineModifiedHidden    gray          darkgray      italic 
+BufTabLineCurrent           black         brightgreen       bold
+BufTabLineActive            brightgreen   black             bold
+BufTabLineHidden            gray          black
+BufTabLineFill              -> TabLineFill
+BufTabLineModifiedCurrent   black         brightgreen       bold italic
+BufTabLineModifiedActive    brightgreen   black             bold italic
+BufTabLineModifiedHidden    gray          black             italic 
 ; }}}
 
 ; Markdown {{{
