@@ -105,13 +105,13 @@ SpellLocal           darkgreen        none              s=darkgreen    italic t=
 SpellRare            red              none              s=red          italic t=underline g=undercurl
 
 Pmenu                brightgray       darkgray
-PmenuSbar            gray             darkgray
 PmenuSel             brightblack      brightgreen       bold 
+PmenuSbar            gray             darkgray
 PmenuThumb           white            gray
 StatusLine           brightgreen      black
 StatusLineNC         brightblack      brightgreen
-TabLine              gray             darkgray
-TabLineFill          brightgreen      darkgray
+TabLine              -> PmenuSbar
+TabLineFill          none             darkgray
 TabLineSel           brightgreen      brightblack       bold 
 VertSplit            darkgray         black
 WarningMsg           brightred        none              bold
