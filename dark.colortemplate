@@ -37,8 +37,8 @@ Color: brightgray    #928374  245
 Color: gray          #665c54  241
 Color: darkgray      #504945  239
 Color: brightblack   #3c3836  237
-Color: black         #2d3031  236
-Color: darkblack     #1d2021  234
+Color: black         #2d3031  235
+Color: darkblack     #1d2021  233
 ; }}}
 
 ; Terminal colors {{{
