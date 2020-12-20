@@ -10,7 +10,6 @@ Website:       https://sheldonl.dev
 Description:   Template for dark colorscheme 
 ; }}}
 
-
 Background: dark
 Variant: gui 256 
 
@@ -34,7 +33,7 @@ Color: darkblue      #076678  25
 
 Color: white         #d5c4a1  187
 Color: brightgray    #928374  245
-Color: gray          #665c54  241
+Color: gray          #7c6f64  243
 Color: darkgray      #504945  239
 Color: brightblack   #3c3836  237
 Color: black         #2d3031  235
