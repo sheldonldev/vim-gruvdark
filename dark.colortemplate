@@ -109,11 +109,9 @@ Pmenu                brightgray       brightblack
 PmenuSel             brightblack      brightgreen       bold 
 PmenuSbar            gray             darkgray
 PmenuThumb           white            brightgray
-StatusLine           brightgreen      black             bold
-StatusLineNC         brightblack      brightgreen       bold
 TabLine              brightgray       brightblack
 TabLineFill          none             brightblack
-TabLineSel           brightgreen      black             bold 
+TabLineSel           brightgreen      brightblack       bold 
 VertSplit            darkgray         darkblack
 WarningMsg           brightred        none              bold
 WildMenu             green            darkgray          bold
@@ -155,6 +153,8 @@ Repeat            -> Statement
 Underlined        -> Statement 
 
 PopupSelected     -> PmenuSel
+StatusLine        -> TabLine
+StatusLineNC      -> PmenuSel 
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 
@@ -190,9 +190,9 @@ netrwDoc	           blue             none
 ; }}}
 
 ; BufTabLine {{{
-BufTabLineCurrent           brightblack   brightgreen       bold
-BufTabLineActive            brightgreen   brightblack       bold
-BufTabLineHidden            brightgray    brightblack
+BufTabLineCurrent           -> PmenuSel
+BufTabLineActive            -> TabLineSel
+BufTabLineHidden            -> TabLine
 BufTabLineFill              -> TabLineFill
 BufTabLineModifiedCurrent   brightblack   brightgreen       bold italic
 BufTabLineModifiedActive    brightgreen   brightblack       bold italic
