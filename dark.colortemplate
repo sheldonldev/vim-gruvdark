@@ -33,11 +33,11 @@ Color: darkgreen     #79740e  100
 Color: darkblue      #076678  25
 
 Color: white         #d5c4a1  187
-Color: brightgray    #a89884  246
-Color: gray          #7c6f64  243
-Color: darkgray      #444444  238
-Color: brightblack   #32302f  236
-Color: black         #2d3031  235
+Color: brightgray    #928374  245
+Color: gray          #665c54  241
+Color: darkgray      #504945  239
+Color: brightblack   #3c3836  237
+Color: black         #2d3031  236
 Color: darkblack     #1d2021  234
 ; }}}
 
@@ -105,14 +105,14 @@ SpellCap             darkblue         none              s=darkblue     italic t=
 SpellLocal           darkgreen        none              s=darkgreen    italic t=underline g=undercurl
 SpellRare            red              none              s=red          italic t=underline g=undercurl
 
-Pmenu                brightgray       darkgray
+Pmenu                brightgray       brightblack
 PmenuSel             brightblack      brightgreen       bold 
 PmenuSbar            gray             darkgray
-PmenuThumb           white            gray
+PmenuThumb           white            brightgray
 StatusLine           brightgreen      black             bold
-StatusLineNC         black            brightgreen       bold
-TabLine              gray             black
-TabLineFill          none             darkblack
+StatusLineNC         brightblack      brightgreen       bold
+TabLine              brightgray       brightblack
+TabLineFill          none             brightblack
 TabLineSel           brightgreen      black             bold 
 VertSplit            darkgray         darkblack
 WarningMsg           brightred        none              bold
@@ -189,14 +189,14 @@ netrwTags	           darkred          none
 netrwDoc	           blue             none
 ; }}}
 
-; Modified BufTabLine {{{
-BufTabLineCurrent           black         brightgreen       bold
-BufTabLineActive            brightgreen   black             bold
-BufTabLineHidden            gray          black
+; BufTabLine {{{
+BufTabLineCurrent           brightblack   brightgreen       bold
+BufTabLineActive            brightgreen   brightblack       bold
+BufTabLineHidden            brightgray    brightblack
 BufTabLineFill              -> TabLineFill
-BufTabLineModifiedCurrent   black         brightgreen       bold italic
-BufTabLineModifiedActive    brightgreen   black             bold italic
-BufTabLineModifiedHidden    gray          black             italic 
+BufTabLineModifiedCurrent   brightblack   brightgreen       bold italic
+BufTabLineModifiedActive    brightgreen   brightblack       bold italic
+BufTabLineModifiedHidden    brightgray    brightblack       italic 
 ; }}}
 
 ; Markdown {{{
