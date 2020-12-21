@@ -23,15 +23,15 @@ Color: magenta       #af7fb8  175
 
 Color: brightred     #fb4934  167
 Color: brightorange  #fabd2f  220
-Color: brightgreen   #afb45f  143
+Color: brightgreen   #b8bb26  143
 Color: brightblue    #98c8df  116
-Color: brightmagenta #df94a8  217
+Color: brightmagenta #d3869b  217
 
 Color: darkred       #9d0006  88
 Color: darkgreen     #79740e  100
 Color: darkblue      #076678  25
 
-Color: white         #d5c4a1  187
+Color: white         #ebdbb2  187
 Color: brightgray    #928374  245
 Color: gray          #7c6f64  243
 Color: darkgray      #504945  239
