@@ -84,10 +84,10 @@ Directory            blue             none
 EndOfBuffer          darkgray         none
 ErrorMsg             white            brightred
 FoldColumn           gray             none
-Folded               brightgray       brightblack        italic
-Title                brightorange     none             bold italic
+Folded               brightgray       brightblack       italic
+Title                brightorange     none              bold italic
 
-MatchParen           gray             none              reverse
+MatchParen           none             gray
 IncSearch            orange           none              reverse
 ModeMsg              orange           none              bold
 Visual               none             darkgray          reverse
