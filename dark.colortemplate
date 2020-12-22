@@ -41,8 +41,8 @@ Color: darkblack     #1d2021  233
 ; }}}
 
 ; Terminal colors {{{
-Term colors: darkblack  brightorange green brightgreen blue orange red black
-Term colors: brightgray brightorange green brightgreen blue orange red white
+Term colors: darkblack  red green brightgreen blue orange brightorange black
+Term colors: brightgray red green brightgreen blue orange brightorange white
 ; }}}
 
 #if get(g:, '@optionprefix_transp_bg', 0)
