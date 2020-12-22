@@ -62,7 +62,7 @@ Function             brightorange     none
 Keyword              magenta          none              italic
 Conditional          brightblue       none              bold
 Operator             brightblue       none
-StorageClass         blue             none              italic
+StorageClass         blue             none              bold italic
 Structure            orange           none              italic
 Type                 orange           none
 Delimiter            red              none              italic
@@ -116,16 +116,16 @@ WildMenu             green            darkgray          bold
 
 ; Other conventional group names (see `:help group-name`)
 Comment              gray             none              italic
-Constant             brightmagenta    none
+Constant             brightmagenta    none              bold
 Error                red              white             bold reverse
-Identifier           blue             none
-Ignore               fg               none
+Identifier           blue             none              bold
 PreProc              green            none
 Special              red              none
 SpecialComment       orange           none              italic 
 SpecialChar          brightorange     none              italic 
 Statement            magenta          none
 Todo                 brightgray       none              bold
+Ignore               fg               none
 
 ToolbarLine          none              darkblue
 ToolbarButton        brightgray        darkgray         bold
