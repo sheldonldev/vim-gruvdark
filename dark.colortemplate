@@ -23,7 +23,7 @@ Color: magenta       #af7fb8  175
 
 Color: brightred     #fb4934  167
 Color: brightorange  #fabd2f  220
-Color: brightgreen   #b8bb26  143
+Color: brightgreen   #b8bb26  148
 Color: brightblue    #98c8df  116
 Color: brightmagenta #d3869b  217
 
@@ -41,9 +41,8 @@ Color: darkblack     #1d2021  233
 ; }}}
 
 ; Terminal colors {{{
-Term colors: black red green orange blue magenta brightblack
-Term colors: brightred brightgreen brightorange brightblue brightmagenta white
-Term colors: darkgreen darkblue darkred
+Term colors: darkblack  brightorange green brightgreen blue orange red black
+Term colors: brightgray brightorange green brightgreen blue orange red white
 ; }}}
 
 #if get(g:, '@optionprefix_transp_bg', 0)
