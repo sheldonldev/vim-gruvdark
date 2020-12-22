@@ -17,8 +17,8 @@ Variant: gui 256
 ; Color name         GUI      256
 Color: red           #e9593d  202
 Color: orange        #fe8019  208
-Color: green         #8ec07c  107
-Color: blue          #7f98bf  109
+Color: green         #689d6a  72
+Color: blue          #7f88af  103
 Color: magenta       #af7fb8  175
 
 Color: brightred     #fb4934  167
