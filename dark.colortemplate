@@ -69,7 +69,7 @@ Delimiter            red              none              italic
 
 ColorColumn          none             black
 Conceal              gray             none
-Cursor               white            darkblack             reverse
+Cursor               white            darkgreen
 CursorColumn         none             black
 CursorLine           none             black
 CursorLineNr         none             black
