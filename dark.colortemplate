@@ -65,7 +65,7 @@ Operator             brightblue       none
 StorageClass         blue             none              bold italic
 Structure            orange           none              italic
 Type                 orange           none
-Delimiter            red              none              italic
+Delimiter            red              none
 
 ColorColumn          none             black
 Conceal              gray             none
