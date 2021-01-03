@@ -56,8 +56,4 @@
 
 ## TODO
 
-- Gallery for Html, CSS, JS, Json, Vue, Jsx, C/C++, Java;
-- Optimization for integrated terminal;
-- May slightly optimized in a long term.
-
-  > Feel free to leave comment in the issues channel if you have any suggestion.
+> Feel free to leave comment in the issues channel if you have any suggestion.
