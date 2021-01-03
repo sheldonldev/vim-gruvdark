@@ -52,7 +52,7 @@
 
 ## My Very Lean vim/nvim Configuration
 
-- [sheldonldev/nvim_config](https://github.com/sheldonldev/nvim_config)
+- [sheldonldev/vim_config](https://github.com/sheldonldev/vim_config)
 
 ## TODO
 
