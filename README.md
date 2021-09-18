@@ -43,12 +43,12 @@
 ## Gallery
 
 - Markdown:
-  ![mardown in vim](https://cdn.sheldonl.dev/vim-gruvdark/markdown-vim.webp)
-  ![mardown in nvim](https://cdn.sheldonl.dev/vim-gruvdark/markdown-nvim.webp)
+  ![mardown in vim](https://raw.githubusercontent.com/sheldonldev/cdn/gh-pages/build/vim-gruvdark/markdown-vim.webp)
+  ![mardown in nvim](https://raw.githubusercontent.com/sheldonldev/cdn/gh-pages/build/vim-gruvdark/markdown-nvim.webp)
 
 - Vimscript
-  ![vimscript in vim](https://cdn.sheldonl.dev/vim-gruvdark/vimscript-vim.webp)
-  ![vimscript in nvim](https://cdn.sheldonl.dev/vim-gruvdark/vimscript-nvim.webp)
+  ![vimscript in vim](https://raw.githubusercontent.com/sheldonldev/cdn/gh-pages/build/vim-gruvdark/vimscript-vim.webp)
+  ![vimscript in nvim](https://raw.githubusercontent.com/sheldonldev/cdn/gh-pages/build/vim-gruvdark/vimscript-nvim.webp)
 
 ## My Very Lean vim/nvim Configuration
 
